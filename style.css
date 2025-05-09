@@ -1,0 +1,73 @@
+
+.head{
+    background-color: rgb(248, 235, 217);
+    height: 20vh;
+}
+
+.head{
+    width: 100vw;
+    /* height: 100vw; */
+}
+header>*{
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-style: normal;
+
+}
+.ABOUT, .PRODUCTS, .IMPACT, .INVESTOR, .WEBSITE,.CAREERS,.NEWS,.CONTACT{
+    display: inline-block;
+    /* width: 100px; */
+    height: 100px;
+    position: relative;
+    top: -30px;
+    margin: 10px;
+    cursor: pointer;
+}
+.logo{
+    display: inline;
+    margin: 10px;
+}
+.banner{
+    width:100%;
+    height:87vh;
+    background:url(./page.JPG);
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+    background-size: cover;
+
+}
+
+.ABOUT:hover{
+    color: red;
+    transition: 1S;
+}
+.PRODUCTS:hover{
+    color: red;
+    transition: 1S;
+}
+.IMPACT:hover{
+    color: red;
+    transition: 1S;
+}
+.INVESTOR:hover{
+    color: red;
+    transition: 1S;
+}
+.CAREERS:hover{
+    color: red;
+    transition: 1S;
+}
+.NEWS:hover{
+    color: red;
+    transition: 1S;
+}
+.CONTACT:hover{
+    color: red;
+    transition: 1S;
+}
+.WEBSITE:hover{
+    color: red;
+    transition: 1S;
+}
