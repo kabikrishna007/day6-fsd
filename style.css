@@ -1,73 +1,77 @@
-
-.head{
-    background-color: rgb(248, 235, 217);
-    height: 20vh;
+ .outerbox{
+    width: 80%;
+    height: 100vw;
+    background-color: white;
+    border: 10px solid gray;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 2px;
+    padding-bottom: 12px;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+*{
+    padding:0;
+    margin:0;
+}
+.innertop{
+    width: 50%;
+    display:flex;
+    justify-content: space-between;
+    margin-top: 20px;
 }
 
-.head{
-    width: 100vw;
-    /* height: 100vw; */
+.colors{
+    display: flex;
+    width:100px;
 }
-header>*{
-    font-size: 12px;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: 600;
-    font-style: normal;
-
+.black{
+    width: 100px;
+    height:10px;
+    background-color: black;
 }
-.ABOUT, .PRODUCTS, .IMPACT, .INVESTOR, .WEBSITE,.CAREERS,.NEWS,.CONTACT{
-    display: inline-block;
-    /* width: 100px; */
-    height: 100px;
-    position: relative;
-    top: -30px;
-    margin: 10px;
-    cursor: pointer;
+.grey{
+    width: 100px;
+    height:10px;
+    background-color: grey
 }
-.logo{
-    display: inline;
-    margin: 10px;
+.aquablue{
+    width: 100px;
+    height: 10px;
+    background-color: aqua;
 }
-.banner{
-    width:100%;
-    height:87vh;
-    background:url(./page.JPG);
-    background-repeat: no-repeat;
-    background-position: center;
-    object-fit: cover;
-    background-size: cover;
-
+.Heading{
+    width: 53%;
+    font-size: 50px;
+    font-weight: 400;
 }
-
-.ABOUT:hover{
-    color: red;
-    transition: 1S;
+.background{
+    width: 50vw;
+    background-color: rgb(64, 169, 196)
 }
-.PRODUCTS:hover{
-    color: red;
-    transition: 1S;
+.contents{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
-.IMPACT:hover{
-    color: red;
-    transition: 1S;
+.circle{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: azure;
+    margin-top: 60px;
+    margin-left: 50px;
 }
-.INVESTOR:hover{
-    color: red;
-    transition: 1S;
+.van{
+    width: 50vw;
+    height: 50vw;
 }
-.CAREERS:hover{
-    color: red;
-    transition: 1S;
-}
-.NEWS:hover{
-    color: red;
-    transition: 1S;
-}
-.CONTACT:hover{
-    color: red;
-    transition: 1S;
-}
-.WEBSITE:hover{
-    color: red;
-    transition: 1S;
+.bottom{
+    width:52%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+    margin-top: 12px;
 }
